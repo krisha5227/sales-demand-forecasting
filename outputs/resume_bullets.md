@@ -1,0 +1,2 @@
+* Trained and compared Ridge (linear), Random Forest, and XGBoost to forecast weekly product demand; best model (XGBoost) achieved RMSE 21.60 and MAPE 22.9% vs a MovingAvg4 baseline (RMSE 34.43, MAPE 28.1%).
+* Fed forecasts into reorder logic: with identical safety-stock buffers, projected stock-out events fell 65.9% (average inventory -1.3%); with buffers re-sized to each forecast's own error, stock-out frequency was +2.4% different and average inventory -39.3%.
